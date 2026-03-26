@@ -1,0 +1,3 @@
+[    2355ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ http://www.automationpractice.pl/favicon.ico:0
+[    3400ms] [ERROR] Failed to load resource: the server responded with a status of 441 () @ http://ww1.automationpractice.pl/img.sedoparking.com/images/js_preloader.gif:0
+[    5111ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
