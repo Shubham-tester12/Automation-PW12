@@ -1,0 +1,17 @@
+dist: focal
+language: node_js
+node_js:
+  - '18'
+
+cache:
+  npm: true
+
+install:
+  - npm ci
+
+before_script:
+  # Install Playwright browsers and required system dependencies on Linux
+  - npx playwright install --with-deps
+
+script:
+  - npm test
